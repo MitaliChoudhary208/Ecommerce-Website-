@@ -7,5 +7,5 @@ function PrivateComponent() {
     auth?<Outlet/> : <Navigate to ='/signup'/>
   )   
 }
-
+   
 export default PrivateComponent
